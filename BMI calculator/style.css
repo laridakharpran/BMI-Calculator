@@ -1,0 +1,120 @@
+/* General Body Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f0f9ff, #cbebff);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container Styling */
+.container {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Heading */
+.container h1 {
+  text-align: center;
+  color: #0277bd;
+  margin-bottom: 25px;
+}
+
+/* Form Styling */
+form p {
+  margin: 15px 0;
+}
+
+label {
+  font-weight: 600;
+  display: inline-block;
+  width: 140px;
+}
+
+/* Input Fields */
+input[type="text"] {
+  padding: 8px 12px;
+  width: calc(100% - 160px);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #0288d1;
+}
+
+/* Button Styling */
+button {
+  display: block;
+  width: 100%;
+  background-color: #0288d1;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #026fa1;
+}
+
+/* BMI Result Field */
+#results {
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  color: #333;
+  font-weight: bold;
+}
+
+/* BMI Weight Guide Table */
+#weight-guide {
+  margin-top: 25px;
+}
+
+#weight-guide table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+#weight-guide caption {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #0277bd;
+  padding-bottom: 10px;
+}
+
+#weight-guide th {
+  padding: 12px;
+  border: 1px solid #ddd;
+  background-color: #e3f2fd;
+}
+
+/* Optional: Color Coding */
+#weight-guide tr:nth-child(2) th:nth-child(1) {
+  background-color: #ffcccb;
+}
+
+#weight-guide tr:nth-child(2) th:nth-child(2) {
+  background-color: #d4edda;
+}
+
+#weight-guide tr:nth-child(2) th:nth-child(3) {
+  background-color: #fff3cd;
+}
